@@ -236,7 +236,7 @@
         {
           "id": "chikorita_bayleef",
           "variant": "level_up",
-          "result": "bayleef form=idola",
+          "result": "bayleef idolan",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -108,7 +108,7 @@
         "1:growl",
         "1:razorleaf",
         "1:poisonpowder",
-        "1:petaldance",
+        "1:dazzlinggleam",
         "1:petalblizzard",
         "1:naturalgift",
         "12:synthesis",
@@ -123,6 +123,7 @@
         "54:safeguard",
         "60:gigadrain",
         "65:solarbeam",
+
         "egg:ancientpower",
         "egg:aromatherapy",
         "egg:charm",
@@ -137,6 +138,7 @@
         "egg:refresh",
         "egg:vinewhip",
         "egg:wringout",
+
         "tm:ancientpower",
         "tm:bodypress",
         "tm:bodyslam",
@@ -205,6 +207,7 @@
         "tm:workup",
         "tm:worryseed",
         "tm:zenheadbutt",
+
         "tutor:ancientpower",
         "tutor:bulldoze",
         "tutor:dazzlinggleam",
@@ -236,6 +239,7 @@
         "tutor:synthesis",
         "tutor:worryseed",
         "tutor:zenheadbutt",
+
         "legacy:attract",
         "legacy:captivate",
         "legacy:confide",
@@ -250,9 +254,10 @@
         "legacy:snore",
         "legacy:swagger",
         "legacy:toxic",
+
         "special:frenzyplant"
       ],
-      "preEvolution": "bayleef form=idola",
+      "preEvolution": "bayleef idolan",
       "evolutions": []
     }
   ]

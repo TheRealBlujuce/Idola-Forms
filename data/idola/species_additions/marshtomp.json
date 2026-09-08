@@ -257,12 +257,12 @@
         "legacy:swagger",
         "legacy:toxic"
       ],
-      "preEvolution": "mudkip form=idola",
+      "preEvolution": "mudkip idolan",
       "evolutions": [
         {
           "id": "marshtomp_swampert",
           "variant": "level_up",
-          "result": "swampert form=idola",
+          "result": "swampert idolan",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

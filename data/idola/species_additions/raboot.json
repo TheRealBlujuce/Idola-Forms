@@ -213,12 +213,12 @@
         "legacy:round",
         "legacy:snore"
       ],
-      "preEvolution": "scorbunny form=idola",
+      "preEvolution": "scorbunny idolan",
       "evolutions": [
         {
           "id": "raboot_cinderace",
           "variant": "level_up",
-          "result": "cinderace form=idola",
+          "result": "cinderace idolan",
           "consumeHeldItem": false,
           "learnableMoves": [
             "pyroball"

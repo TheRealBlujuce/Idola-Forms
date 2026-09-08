@@ -233,12 +233,12 @@
         "legacy:toxic",
         "special:frenzyplant"
       ],
-      "preEvolution": "chikorita form=idola",
+      "preEvolution": "chikorita idolan",
       "evolutions": [
         {
           "id": "bayleef_meganium",
           "variant": "level_up",
-          "result": "meganium form=idola",
+          "result": "meganium idolan",
           "consumeHeldItem": false,
           "learnableMoves": [
             "petaldance"

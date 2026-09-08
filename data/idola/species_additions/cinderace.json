@@ -237,7 +237,7 @@
         "legacy:round",
         "legacy:snore"
       ],
-      "preEvolution": "raboot form=idola",
+      "preEvolution": "raboot idolan",
       "evolutions": []
     }
   ]
