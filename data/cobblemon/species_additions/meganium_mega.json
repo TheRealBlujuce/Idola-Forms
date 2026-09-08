@@ -1,0 +1,95 @@
+{
+  "target": "cobblemon:meganium",
+  "features": [
+    "mega_evolution"
+  ],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "pokedex": [
+        "cobblemon.species.meganium-mega.desc"
+      ],
+      "abilities": [
+        "megasol",
+        "h:megasol"
+      ],
+      "labels": [
+        "gen2",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "baseStats": {
+        "hp": 80,
+        "attack": 92,
+        "defence": 115,
+        "special_attack": 143,
+        "special_defence": 115,
+        "speed": 80
+      },
+      "baseScale": 1.0,
+      "height": 24,
+      "weight": 2010
+    },
+    {
+      "name": "Idola",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "maleRatio": 0.875,
+      "height": 18,
+      "weight": 1005,
+      "pokedex": [
+        "cobblemon.species.meganium.desc"
+      ],
+      "labels": [
+        "gen2",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "overgrow",
+        "h:leafguard"
+      ],
+      "eggGroups": [
+        "monster",
+        "grass"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 82,
+        "defence": 100,
+        "special_attack": 83,
+        "special_defence": 100,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "baseExperienceYield": 263,
+      "experienceGroup": "medium_slow",
+      "catchRate": 45,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.75,
+      "hitbox": {
+        "width": 1.6,
+        "height": 3.4,
+        "fixed": false
+      },
+      "preEvolution": "bayleef idolan",
+      "evolutions": []
+    }
+  ]
+}
