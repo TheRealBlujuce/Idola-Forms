@@ -240,7 +240,7 @@
         {
           "id": "mudkip_marshtomp",
           "variant": "level_up",
-          "result": "marshtomp idolan",
+          "result": "marshtomp form=idola",
           "consumeHeldItem": false,
           "learnableMoves": [
             "mudshot"

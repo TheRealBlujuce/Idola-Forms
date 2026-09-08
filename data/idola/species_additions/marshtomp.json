@@ -262,7 +262,7 @@
         {
           "id": "marshtomp_swampert",
           "variant": "level_up",
-          "result": "swampert idolan",
+          "result": "swampert form=idola",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
