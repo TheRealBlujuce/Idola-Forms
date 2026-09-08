@@ -283,7 +283,7 @@
         "legacy:swagger",
         "legacy:toxic"
       ],
-      "preEvolution": "marshtomp",
+      "preEvolution": "marshtomp form=idola",
       "evolutions": []
     }
   ]

@@ -213,7 +213,7 @@
         "legacy:round",
         "legacy:snore"
       ],
-      "preEvolution": "scorbunny form=idolan",
+      "preEvolution": "scorbunny form=idola",
       "evolutions": [
         {
           "id": "raboot_cinderace",

@@ -233,7 +233,7 @@
         "legacy:toxic",
         "special:frenzyplant"
       ],
-      "preEvolution": "chikorita form=idolan",
+      "preEvolution": "chikorita form=idola",
       "evolutions": [
         {
           "id": "bayleef_meganium",

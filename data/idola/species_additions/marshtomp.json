@@ -257,7 +257,7 @@
         "legacy:swagger",
         "legacy:toxic"
       ],
-      "preEvolution": "mudkip",
+      "preEvolution": "mudkip form=idola",
       "evolutions": [
         {
           "id": "marshtomp_swampert",
