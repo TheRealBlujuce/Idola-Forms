@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:cinderace",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "cobblemon:cinderace",
+      "model": "idola:cinderace_idolan.geo",
+      "texture": "idola:textures/pokemon/cinderace/cinderace_idolan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "idola:textures/pokemon/cinderace/cinderace_idolan_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/cinderace/cinderace_idolan_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "idola:textures/pokemon/cinderace/cinderace_idolan_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/cinderace/cinderace_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

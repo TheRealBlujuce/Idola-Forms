@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:scorbunny",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "cobblemon:scorbunny",
+      "model": "idola:scorbunny_idolan.geo",
+      "texture": "idola:textures/pokemon/scorbunny/scorbunny_idolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/scorbunny/scorbunny_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/scorbunny/scorbunny_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
