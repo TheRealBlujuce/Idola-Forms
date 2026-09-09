@@ -44,7 +44,7 @@
       "height": 18,
       "weight": 1005,
       "pokedex": [
-        "cobblemon.species.meganium.desc"
+        "idola.species.meganium.idolan.desc"
       ],
       "labels": [
         "gen2",
@@ -54,19 +54,19 @@
         "idolan"
       ],
       "abilities": [
-        "overgrow",
-        "h:leafguard"
+        "flowerveil",
+        "h:mistysurge"
       ],
       "eggGroups": [
         "monster",
         "grass"
       ],
       "baseStats": {
-        "hp": 80,
-        "attack": 82,
+        "hp": 90,
+        "attack": 72,
         "defence": 100,
-        "special_attack": 83,
-        "special_defence": 100,
+        "special_attack": 93,
+        "special_defence": 110,
         "speed": 80
       },
       "evYield": {
@@ -91,7 +91,7 @@
       "behaviour": {
         "moving": {
             "walk": {
-            "walkSpeed": 0.4
+            "walkSpeed": 0.2
             }
         }
        },
