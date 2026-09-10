@@ -262,105 +262,12 @@
   "evolutions": [],
   "forms": [
   {
-    "name": "Mega",
-    "primaryType": "water",
-    "secondaryType": "ground",
-    "maleRatio": 0.875,
-    "height": 19,
-    "weight": 1020,
-    "pokedex": [
-      "cobblemon.species.swampert-mega.desc"
-    ],
-    "labels": [
-      "gen6",
-      "mega"
-    ],
-    "aspects": [
-      "mega"
-    ],
-    "abilities": [
-      "swiftswim",
-      "h:swiftswim"
-    ],
-    "baseStats": {
-      "hp": 100,
-      "attack": 150,
-      "defence": 110,
-      "special_attack": 95,
-      "special_defence": 110,
-      "speed": 70
-    },
-    "baseScale": 1.0,
-    "hitbox": {
-      "width": 2.6,
-      "height": 2.6,
-      "fixed": false
-    },
-    "baseExperienceYield": 318,
-    "dynamaxBlocked": true,
-    "evolutions": [],
-    "battleOnly": true,
-    "behaviour": {
-      "herd": {
-        "maxSize": "6"
-      },
-      "moving": {
-        "swim": {
-          "canBreatheUnderwater": true
-        }
-      },
-      "combat": {
-        "willDefendSelf": true,
-        "willDefendOwner": true,
-        "willFlee": false
-      },
-      "resting": {
-        "drowsyChance": 0.0333,
-        "rouseChance": 0.0042
-      }
-    },
-    "riding": {
-      "behaviours": {
-        "LAND": {
-          "key": "cobblemon:land/horse",
-          "rideSounds": [],
-          "stats": {
-            "ACCELERATION": "80-85",
-            "JUMP": "40-60",
-            "SKILL": "35-70",
-            "SPEED": "10-35",
-            "STAMINA": "45-65"
-          }
-        },
-        "LIQUID": {
-          "key": "cobblemon:liquid/dolphin",
-          "rideSounds": [],
-          "stats": {
-            "ACCELERATION": "75-85",
-            "JUMP": "40-60",
-            "SKILL": "60-80",
-            "SPEED": "30-50",
-            "STAMINA": "45-65"
-          }
-        }
-      },
-      "seats": [
-        {
-          "locator": "seat_1"
-        },
-        {
-          "locator": "seat_2"
-        }
-      ]
-    }
-  },
-  {
     "name": "Idola",
     "primaryType": "water",
     "secondaryType": "poison",
     "maleRatio": 0.875,
-    "height": 15,
-    "weight": 819,
+    "height": 16,
+    "weight": 930,
     "pokedex": [
       "idola.species.swampert.idolan.desc"
     ],
@@ -372,8 +279,8 @@
       "idolan"
     ],
     "abilities": [
-      "torrent",
-      "h:damp"
+      "poisontouch",
+      "h:filter"
     ],
     "eggGroups": [
       "monster",
@@ -382,10 +289,10 @@
     "baseStats": {
       "hp": 100,
       "attack": 110,
-      "defence": 90,
-      "special_attack": 85,
-      "special_defence": 90,
-      "speed": 60
+      "defence": 100,
+      "special_attack": 80,
+      "special_defence": 95,
+      "speed": 65
     },
     "evYield": {
       "hp": 0,
@@ -413,6 +320,7 @@
         },
         "swim": {
           "canBreatheUnderwater": true,
+          "canWalkOnWater": true,
           "swimSpeed": "0.2"
         }
       },
@@ -642,6 +550,99 @@
     ],
     "preEvolution": "marshtomp idolan",
     "evolutions": []
+    },
+    {
+      "name": "Mega",
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "maleRatio": 0.875,
+      "height": 19,
+      "weight": 1020,
+      "pokedex": [
+        "cobblemon.species.swampert-mega.desc"
+      ],
+      "labels": [
+        "gen6",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "swiftswim",
+        "h:swiftswim"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defence": 110,
+        "special_attack": 95,
+        "special_defence": 110,
+        "speed": 70
+      },
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 2.6,
+        "height": 2.6,
+        "fixed": false
+      },
+      "baseExperienceYield": 318,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true,
+      "behaviour": {
+        "herd": {
+          "maxSize": "6"
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "80-85",
+              "JUMP": "40-60",
+              "SKILL": "35-70",
+              "SPEED": "10-35",
+              "STAMINA": "45-65"
+            }
+          },
+          "LIQUID": {
+            "key": "cobblemon:liquid/dolphin",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "75-85",
+              "JUMP": "40-60",
+              "SKILL": "60-80",
+              "SPEED": "30-50",
+              "STAMINA": "45-65"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          },
+          {
+            "locator": "seat_2"
+          }
+        ]
+      }
     }
   ]
 }

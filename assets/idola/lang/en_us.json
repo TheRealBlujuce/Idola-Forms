@@ -1,5 +1,9 @@
 {
-    "idola.species.meganium.idolan.desc": "The flowers covering its body release a fragrance that encourages plant growth. Forests inhabited by Meganium are said to recover unusually quickly from fires and severe winters.",
+    "idola.species.meganium.idolan.desc": "Idolan Meganium — The Blooming Guardian Pokémon. The flowers covering its body release a fragrance that encourages plant growth. Forests inhabited by Meganium are said to recover unusually quickly from fires and severe winters.",
 
-    "cobblemon.ui.pokedex.info.form.meganium-idola": "Idolan Form"
+    "cobblemon.ui.pokedex.info.form.meganium-idola": "Idolan Form",
+
+    "idola.species.swampert.idolan.desc": "Idolan Swampert — The Watershed Guardian Pokémon. Its body absorbs impurities from the rivers and wetlands where it lives. The concentrated substances are converted into a powerful toxin stored within the purple channels along its fins.",
+
+    "cobblemon.ui.pokedex.info.form.swampert-idola": "Idolan Form"
 }
