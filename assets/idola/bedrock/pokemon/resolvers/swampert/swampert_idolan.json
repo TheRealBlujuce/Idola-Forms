@@ -6,7 +6,7 @@
       "aspects": [
         "idolan"
       ],
-      "poser": "cobblemon:swampert",
+      "poser": "idola:swampert_idolan",
       "model": "idola:swampert_idolan.geo",
       "texture": "idola:textures/pokemon/swampert/swampert_idolan.png",
       "layers": []
