@@ -6,7 +6,7 @@
 				"identifier": "geometry.raboot",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 3,
+				"visible_bounds_width": 4,
 				"visible_bounds_height": 3.5,
 				"visible_bounds_offset": [0, 1.25, 0]
 			},
@@ -373,7 +373,7 @@
 					"name": "hair_right",
 					"parent": "hair",
 					"pivot": [-2, 25, 0.15],
-					"rotation": [-5, 20, -17.5],
+					"rotation": [-47.45231, 2.40925, -26.23433],
 					"cubes": [
 						{"origin": [-4, 24, 0.15], "size": [4, 4, 0], "uv": [39, 23], "mirror": true}
 					]
@@ -390,7 +390,7 @@
 					"name": "hair_middle",
 					"parent": "hair",
 					"pivot": [0, 25, 0.5],
-					"rotation": [0, 0, 7.5],
+					"rotation": [-44.75386, 5.29571, 5.31847],
 					"cubes": [
 						{"origin": [-2, 24, 0.5], "size": [4, 5, 0], "uv": [45, 11]}
 					]
@@ -407,7 +407,7 @@
 					"name": "hair_left",
 					"parent": "hair",
 					"pivot": [2.5, 25, 1.75],
-					"rotation": [-2.5, -20, 25],
+					"rotation": [-42.39208, 2.23335, 31.53749],
 					"cubes": [
 						{"origin": [0.5, 24, 1.75], "size": [5, 3, 0], "uv": [38, 19], "mirror": true}
 					]

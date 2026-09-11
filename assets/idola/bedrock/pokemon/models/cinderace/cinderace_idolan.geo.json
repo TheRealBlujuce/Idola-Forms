@@ -879,19 +879,7 @@
 					"name": "leg_left_ruff",
 					"parent": "leg_left_cuff",
 					"pivot": [6.5, 16, 2.5],
-					"rotation": [20, 45, 0],
-					"cubes": [
-						{"origin": [6.5, 14, 1.1], "size": [0, 2, 5], "inflate": 0.01, "uv": [62, 89]}
-					]
-				},
-				{
-					"name": "leg_left_ruff2",
-					"parent": "leg_left_cuff",
-					"pivot": [6.5, 13, 2.5],
-					"rotation": [-15, 45, 0],
-					"cubes": [
-						{"origin": [6.5, 13, 0.85], "size": [0, 2, 4], "uv": [90, 93]}
-					]
+					"rotation": [20, 45, 0]
 				},
 				{
 					"name": "knee_left",
@@ -954,24 +942,6 @@
 					"cubes": [
 						{"origin": [-6.5, 13, -4.5], "size": [6, 3, 7], "inflate": 0.01, "uv": [26, 41]},
 						{"origin": [-6.5, 13, -4.5], "size": [6, 3, 7], "inflate": 0.3, "uv": [0, 50]}
-					]
-				},
-				{
-					"name": "leg_right_ruff",
-					"parent": "leg_right_cuff",
-					"pivot": [-6.5, 16, 2.5],
-					"rotation": [20, -45, 0],
-					"cubes": [
-						{"origin": [-6.5, 14, 1.1], "size": [0, 2, 5], "inflate": 0.01, "uv": [10, 90]}
-					]
-				},
-				{
-					"name": "leg_right_ruff2",
-					"parent": "leg_right_cuff",
-					"pivot": [-6.5, 13, 2.5],
-					"rotation": [-15, -45, 0],
-					"cubes": [
-						{"origin": [-6.5, 13, 0.85], "size": [0, 2, 4], "uv": [94, 27]}
 					]
 				},
 				{
