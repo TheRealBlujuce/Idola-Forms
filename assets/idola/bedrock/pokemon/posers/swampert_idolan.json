@@ -12,33 +12,12 @@
     0
   ],
   "rootBone": "swampert",
+
   "animations": {
-    "cry": "q.bedrock_stateful('swampert_mega', 'cry')"
+    "cry": "q.bedrock_stateful('swampert_idolan', 'cry')"
   },
+
   "poses": {
-    "ground-jump": {
-      "poseTypes": [
-        "STAND",
-        "WALK"
-      ],
-      "condition": "q.in_air && q.is_ridden",
-      "animations": [
-        "q.bedrock('swampert_mega', 'ride_jump')"
-      ],
-      "transformTicks": 2,
-      "transformToTicks": 2
-    },
-    "water-jump": {
-      "poseTypes": [
-        "FLOAT",
-        "SWIM"
-      ],
-      "condition": "q.is_ridden",
-      "isTouchingWater": false,
-      "animations": [
-        "q.bedrock('swampert_mega', 'water_swim')"
-      ]
-    },
     "standing": {
       "poseTypes": [
         "STAND",
@@ -51,13 +30,14 @@
       "isTouchingWater": false,
       "condition": "!q.in_air",
       "animations": [
-        "q.bedrock('swampert_mega', 'ground_idle')"
+        "q.bedrock('swampert_idolan', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ],
       "transformTicks": 5
     },
+
     "battle-standing": {
       "poseTypes": [
         "STAND"
@@ -65,146 +45,95 @@
       "isTouchingWater": false,
       "isBattle": true,
       "animations": [
-        "q.bedrock('swampert_mega', 'battle_idle')"
+        "q.bedrock('swampert_idolan', 'battle_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ],
       "transformTicks": 5
     },
+
     "walk": {
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
       "isTouchingWater": false,
-      "condition": "!q.in_air && !q.is_sprinting",
+      "condition": "!q.in_air && q.horizontal_velocity < 1",
       "animations": [
-        "q.bedrock('swampert_mega', 'ground_walk')",
-        "q.bedrock_stateful('swampert_mega', 'blink')",
-        {
-          "condition": "q.is_ridden && q.has_entity && !q.in_air",
-          "animation": "q.bedrock('swampert_mega', 'ride_ground_walk')"
-        }
+        "q.bedrock('swampert_idolan', 'ground_walk')",
+        "q.bedrock_stateful('swampert_idolan', 'blink')"
       ],
       "transformTicks": 5
     },
+
     "run": {
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
       "isTouchingWater": false,
-      "condition": "!q.in_air && q.is_sprinting",
+      "condition": "!q.in_air && q.horizontal_velocity >= 1",
       "animations": [
-        "q.bedrock('swampert_mega', 'ground_run')",
-        "q.bedrock_stateful('swampert_mega', 'blink')",
-        {
-          "condition": "q.is_ridden && q.has_entity && !q.in_air",
-          "animation": "q.bedrock('swampert_mega', 'ride_water_swim')"
-        }
+        "q.bedrock('swampert_idolan', 'ground_run')",
+        "q.bedrock_stateful('swampert_idolan', 'blink')"
       ],
       "transformTicks": 5
     },
+
     "float": {
       "poseTypes": [
         "FLOAT"
       ],
       "isUnderWater": true,
       "animations": [
-        "q.bedrock('swampert_mega', 'water_idle')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('swampert_mega', 'ride_water_swim')"
-        }
+        "q.bedrock('swampert_idolan', 'water_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ]
     },
+
     "swim": {
       "poseTypes": [
         "SWIM"
       ],
       "isUnderWater": true,
       "animations": [
-        "q.bedrock('swampert_mega', 'water_swim')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('swampert_mega', 'ride_water_swim')"
-        }
+        "q.bedrock('swampert_idolan', 'water_swim')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ]
     },
-    "mount-surface-idle": {
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "condition": "q.is_ridden",
-      "isTouchingWater": true,
-      "isUnderWater": false,
-      "animations": [
-        "q.bedrock('swampert_mega', 'water_idle')",
-        "q.bedrock('swampert_mega', 'ride_surface_water')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
-      ]
-    },
-    "mount-surface-swim": {
-      "poseTypes": [
-        "SWIM"
-      ],
-      "condition": "q.is_ridden",
-      "isTouchingWater": true,
-      "isUnderWater": false,
-      "animations": [
-        "q.bedrock('swampert_mega', 'water_surface_swim')",
-        "q.bedrock('swampert_mega', 'ride_surface_water')"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
-      ],
-      "transformToTicks": 2
-    },
+
     "surface-idle": {
       "poseTypes": [
         "STAND",
         "FLOAT"
       ],
-      "condition": "!q.is_ridden",
       "isTouchingWater": true,
       "isUnderWater": false,
       "animations": [
-        "q.bedrock('swampert_mega', 'water_idle')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('swampert_mega', 'ride_surface_water')"
-        }
+        "q.bedrock('swampert_idolan', 'water_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ]
     },
+
     "surface-swim": {
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "condition": "!q.is_ridden",
       "isTouchingWater": true,
       "isUnderWater": false,
       "animations": [
-        "q.bedrock('swampert_mega', 'water_swim')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('swampert_mega', 'water_idle')"
-        }
+        "q.bedrock('swampert_idolan', 'water_surface_swim')"
       ],
       "quirks": [
-        "q.bedrock_quirk('swampert_mega', 'blink')"
+        "q.bedrock_quirk('swampert_idolan', 'blink')"
       ]
     }
   }

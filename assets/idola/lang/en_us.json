@@ -5,5 +5,9 @@
 
     "idola.species.swampert.idolan.desc": "Idolan Swampert — The Watershed Guardian Pokémon. Its body absorbs impurities from the rivers and wetlands where it lives. The concentrated substances are converted into a powerful toxin stored within the purple channels along its fins.",
 
-    "cobblemon.ui.pokedex.info.form.swampert-idola": "Idolan Form"
+    "cobblemon.ui.pokedex.info.form.swampert-idola": "Idolan Form",
+
+    "idola.species.cinderace.idolan.desc": "Idolan Cinderace — The Frontier Striker Pokémon. Living in Idola's rocky highlands strengthened its legs considerably. It kicks stones with enough force to shatter them, coating the fragments in fire before launching them toward opponents.",
+
+    "cobblemon.ui.pokedex.info.form.cinderace-idola": "Idolan Form"
 }
