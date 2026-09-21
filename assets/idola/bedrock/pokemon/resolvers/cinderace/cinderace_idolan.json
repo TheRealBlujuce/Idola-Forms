@@ -6,7 +6,7 @@
       "aspects": [
         "idolan"
       ],
-      "poser": "cobblemon:cinderace",
+      "poser": "idola:cinderace_idolan",
       "model": "idola:cinderace_idolan.geo",
       "texture": "idola:textures/pokemon/cinderace/cinderace_idolan.png",
       "layers": [

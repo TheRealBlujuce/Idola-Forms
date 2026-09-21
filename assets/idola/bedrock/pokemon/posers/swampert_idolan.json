@@ -7,14 +7,19 @@
   ],
   "profileScale": 0.35,
   "profileTranslation": [
-    -0.1,
-    1,
+    0,
+    1.15,
     0
   ],
   "rootBone": "swampert",
 
   "animations": {
-    "cry": "q.bedrock_stateful('swampert_idolan', 'cry')"
+    "cry": "q.bedrock_stateful('swampert_idolan', 'cry')",
+    "recoil": "q.bedrock_stateful('swampert_idolan', 'recoil')",
+    "physical": "q.bedrock_primary('swampert_idolan', 'physical', q.curve('symmetrical'))",
+    "special": "q.bedrock_primary('swampert_idolan', 'special', q.curve('symmetrical'))",
+    "status": "q.bedrock_primary('swampert_idolan', 'status', q.curve('symmetrical'))",
+    "faint": "q.bedrock_primary('swampert_idolan', 'faint', q.curve('one'))"
   },
 
   "poses": {
@@ -35,14 +40,19 @@
       "quirks": [
         "q.bedrock_quirk('swampert_idolan', 'blink')"
       ],
+      "transitions": {
+        "battle-standing": "q.bedrock_primary('swampert_idolan', 'battle_intro', q.curve('symmetrical_wide'))"
+      },
       "transformTicks": 5
     },
 
     "battle-standing": {
       "poseTypes": [
-        "STAND"
+        "STAND",
+        "FLOAT"
       ],
       "isTouchingWater": false,
+      "condition": "!q.in_air",
       "isBattle": true,
       "animations": [
         "q.bedrock('swampert_idolan', 'battle_idle')"
@@ -58,12 +68,16 @@
         "WALK",
         "SWIM"
       ],
+      "isBattle": false,
       "isTouchingWater": false,
-      "condition": "!q.in_air && q.horizontal_velocity < 1",
+      "condition": "!q.in_air",
       "animations": [
         "q.bedrock('swampert_idolan', 'ground_walk')",
         "q.bedrock_stateful('swampert_idolan', 'blink')"
       ],
+      "transitions": {
+        "battle-standing": "q.bedrock_primary('swampert_idolan', 'battle_intro', q.curve('symmetrical_wide'))"
+      },
       "transformTicks": 5
     },
 
@@ -72,12 +86,16 @@
         "WALK",
         "SWIM"
       ],
+      "isBattle": false,
       "isTouchingWater": false,
-      "condition": "!q.in_air && q.horizontal_velocity >= 1",
+      "condition": "!q.in_air",
       "animations": [
-        "q.bedrock('swampert_idolan', 'ground_run')",
+        "q.bedrock('swampert_idolan', 'ground_walk')",
         "q.bedrock_stateful('swampert_idolan', 'blink')"
       ],
+      "transitions": {
+        "battle-standing": "q.bedrock_primary('swampert_idolan', 'battle_intro', q.curve('symmetrical_wide'))"
+      },
       "transformTicks": 5
     },
 
@@ -130,7 +148,7 @@
       "isTouchingWater": true,
       "isUnderWater": false,
       "animations": [
-        "q.bedrock('swampert_idolan', 'water_surface_swim')"
+        "q.bedrock('swampert_idolan', 'water_swim')"
       ],
       "quirks": [
         "q.bedrock_quirk('swampert_idolan', 'blink')"

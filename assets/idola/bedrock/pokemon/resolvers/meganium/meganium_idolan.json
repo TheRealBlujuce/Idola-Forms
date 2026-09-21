@@ -6,7 +6,7 @@
       "aspects": [
         "idolan"
       ],
-      "poser": "cobblemon:meganium",
+      "poser": "idola:meganium_idolan",
       "model": "idola:meganium_idolan.geo",
       "texture": "idola:textures/pokemon/meganium/meganium_idolan.png",
       "layers": []

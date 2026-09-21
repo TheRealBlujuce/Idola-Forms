@@ -22,8 +22,8 @@
         "idolan"
       ],
       "abilities": [
-        "blaze",
-        "h:libero"
+        "sandstream",
+        "h:sandforce"
       ],
       "eggGroups": [
         "field",
@@ -31,11 +31,11 @@
       ],
       "baseStats": {
         "hp": 80,
-        "attack": 116,
-        "defence": 75,
-        "special_attack": 65,
-        "special_defence": 75,
-        "speed": 119
+        "attack": 95,
+        "defence": 90,
+        "special_attack": 95,
+        "special_defence": 90,
+        "speed": 100
       },
       "evYield": {
         "hp": 0,
