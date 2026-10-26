@@ -1,0 +1,242 @@
+{
+  "target": "cobblemon:trapinch",
+  "features": [
+    "idolan"
+  ],
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "bug",
+      "maleRatio": 0.5,
+      "height": 7,
+      "weight": 150,
+      "pokedex": [
+        "idola.species.trapinch.idolan.desc"
+      ],
+      "labels": [
+        "gen3",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "hypercutter",
+        "strongjaw",
+        "h:sheerforce"
+      ],
+      "eggGroups": [
+        "bug",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 100,
+        "defence": 55,
+        "special_attack": 25,
+        "special_defence": 50,
+        "speed": 10
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_slow",
+      "catchRate": 255,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.5,
+      "hitbox": {
+        "width": 0.8,
+        "height": 0.9,
+        "fixed": false
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:soft_sand",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:yache_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:sandattack",
+        "1:astonish",
+        "1:bugbite",
+        "1:bide",
+        "8:bite",
+        "12:mudslap",
+        "16:dragonbreath",
+        "20:bulldoze",
+        "24:dig",
+        "28:crunch",
+        "32:leechlife",
+        "36:dragontail",
+        "40:xscissor",
+        "44:dragonclaw",
+        "48:superpower",
+        "egg:bugbite",
+        "egg:feint",
+        "egg:firstimpression",
+        "egg:flail",
+        "egg:furycutter",
+        "egg:quickattack",
+        "egg:dragonrush",
+        "egg:breakingswipe",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bugbite",
+        "tm:bulldoze",
+        "tm:crunch",
+        "tm:dig",
+        "tm:dragonclaw",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:facade",
+        "tm:focusenergy",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:headbutt",
+        "tm:hyperbeam",
+        "tm:laserfocus",
+        "tm:leechlife",
+        "tm:lunge",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:protect",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:signalbeam",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:xscissor",
+        "tutor:bugbite",
+        "tutor:bulldoze",
+        "tutor:dragonpulse",
+        "tutor:earthpower",
+        "tutor:focusenergy",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:hyperbeam",
+        "tutor:laserfocus",
+        "tutor:mudslap",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:scorchingsands",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:stoneedge",
+        "tutor:superpower",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:doubleedge",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:solarbeam",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "evolutions": [
+        {
+          "id": "trapinch_vibrava_idolan",
+          "variant": "level_up",
+          "result": "vibrava idolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "bugbuzz"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 35
+            }
+          ],
+          "drops": {
+            "amount": 1,
+            "entries": [
+              {
+                "item": "cobblemon:shed_shell",
+                "percentage": 100.0,
+                "requirements": [],
+                "type": "evolution"
+              }
+            ]
+          }
+        }
+      ],
+      "behaviour": {
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "vibrava idolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "flygon idolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "trapinch idolan",
+              "tier": 1
+            }
+          ]
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "walkSpeed": 0.3
+          }
+        },
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        }
+      }
+    }
+  ]
+}

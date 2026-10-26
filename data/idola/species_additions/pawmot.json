@@ -1,0 +1,213 @@
+{
+  "target": "cobblemon:pawmot",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "maleRatio": 0.5,
+      "height": 9,
+      "weight": 410,
+      "pokedex": [
+        "idola.species.pawmot.idolan.desc"
+      ],
+      "labels": [
+        "gen9",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "thickfat",
+        "ironfist",
+        "h:unseenfist"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 115,
+        "defence": 70,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 110
+      },
+      "evYield": {
+        "attack": 3,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 245,
+      "experienceGroup": "medium_fast",
+      "catchRate": 45,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 0.9,
+      "hitbox": {
+          "width": 0.7,
+          "height": 1.0,
+          "fixed": false
+      },
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:cheri_berry",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:growl",
+        "1:iceshard",
+        "1:revivalblessing",
+        "1:scratch",
+        "3:thundershock",
+        "6:quickattack",
+        "8:charge",
+        "10:bulkup",
+        "12:nuzzle",
+        "15:dig",
+        "19:bite",
+        "23:spark",
+        "25:icepunch",
+        "29:thunderwave",
+        "33:icefang",
+        "36:drainpunch",
+        "39:iciclecrash",
+        "44:thunderpunch",
+        "49:discharge",
+        "54:agility",
+        "60:doubleshock",
+        "65:blizzard",
+        "egg:fakeout",
+        "egg:iceshard",
+        "egg:machpunch",
+        "egg:sweetkiss",
+        "egg:wish",
+        "tm:agility",
+        "tm:avalanche",
+        "tm:batonpass",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:encore",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:drainpunch",
+        "tm:bulkup",
+        "tm:fling",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:icespinner",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:metalclaw",
+        "tm:metronome",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rocktomb",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snowscape",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:supercellslam",
+        "tm:superfang",
+        "tm:swift",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:trailblaze",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tutor:chargebeam",
+        "tutor:coaching",
+        "tutor:electroweb",
+        "tutor:firepunch",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:hyperbeam",
+        "tutor:icepunch",
+        "tutor:knockoff",
+        "tutor:playrough",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:superfang",
+        "tutor:swift",
+        "tutor:throatchop",
+        "tutor:thunderbolt",
+        "tutor:thunderfang",
+        "tutor:thunderpunch",
+        "tutor:wildcharge",
+        "special:celebrate"
+      ],
+      "preEvolution": "pawmo idolan",
+      "evolutions": [],
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "pawmot idolan",
+              "tier": 1
+            }
+          ]
+        },
+        "resting": {
+          "canSleep": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "canLook": false,
+          "walk": {
+              "canWalk": true,
+              "walkSpeed": 0.232,
+              "avoidsLand": false
+          },
+          "swim": {
+              "swimSpeed": 0.1,
+              "canSwimInWater": true,
+              "canBreatheUnderwater": false
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "portraitScale": 3.1,
+  "portraitTranslation": [-1.2, -0.7, 0.0],
+
+  "profileScale": 0.9,
+  "profileTranslation": [0.0, 0.4, 0.0],
+
+  "rootBone": "dubwool",
+
+  "animations": {
+    "cry": "q.bedrock_stateful('dubwool_idolan', 'cry')",
+    "faint": "q.bedrock_primary('dubwool_idolan', 'faint', q.curve('one'))",
+    "eat": "q.bedrock_stateful('dubwool_idolan', 'eat')"
+  },
+
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('dubwool_idolan', 'ground_idle')",
+        "q.bedrock_stateful('dubwool_idolan', 'blink')",
+        "q.look('head_ai')"
+      ]
+    },
+
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('dubwool_idolan', 'ground_walk')",
+        "q.bedrock_stateful('dubwool_idolan', 'blink')",
+        "q.look('head_ai')"
+      ]
+    },
+
+    "running": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.bedrock('dubwool_idolan', 'ground_run')",
+        "q.bedrock_stateful('dubwool_idolan', 'blink')"
+      ]
+    },
+
+    "battle-standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('dubwool_idolan', 'ground_idle')",
+        "q.bedrock_stateful('dubwool_idolan', 'blink')",
+        "q.look('head_ai')"
+      ]
+    },
+
+    "sleeping": {
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('dubwool_idolan', 'sleep')"
+      ]
+    }
+  }
+}

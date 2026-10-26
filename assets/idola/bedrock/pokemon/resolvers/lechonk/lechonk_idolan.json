@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:lechonk",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "cobblemon:lechonk",
+      "model": "idola:lechonk_idolan.geo",
+      "texture": "idola:textures/pokemon/lechonk/lechonk_idolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/lechonk/lechonk_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/lechonk/lechonk_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

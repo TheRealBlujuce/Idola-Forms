@@ -1,0 +1,183 @@
+{
+  "target": "cobblemon:lechonk",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "normal",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 5,
+      "weight": 102,
+      "pokedex": [
+        "idola.species.lechonk.idolan.desc"
+      ],
+      "labels": [
+        "gen9",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "pickup",
+        "gluttony",
+        "h:thickfat"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defence": 50,
+        "special_attack": 25,
+        "special_defence": 45,
+        "speed": 19
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 51,
+      "experienceGroup": "medium_fast",
+      "catchRate": 255,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 1.15,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      },
+      "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "5:mudslap",
+        "8:covet",
+        "11:sandattack",
+        "14:mudshot",
+        "17:headbutt",
+        "20:bulldoze",
+        "23:yawn",
+        "26:dig",
+        "29:workup",
+        "32:stompingtantrum",
+        "35:takedown",
+        "38:highhorsepower",
+        "41:doubleedge",
+        "egg:endeavor",
+        "egg:stockpile",
+        "egg:spitup",
+        "egg:swallow",
+        "egg:stuffcheeks",
+        "egg:curse",
+        "egg:slam",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:chillingwater",
+        "tm:covet",
+        "tm:curse",
+        "tm:dig",
+        "tm:disarmingvoice",
+        "tm:doubleedge",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hypervoice",
+        "tm:ironhead",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:uproar",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:earthquake",
+        "tm:stompingtantrum",
+        "tm:highhorsepower",
+        "tm:sandstorm",
+        "tutor:bulldoze",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ironhead",
+        "tutor:mudslap",
+        "tutor:playrough",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:superfang",
+        "tutor:uproar",
+        "tutor:zenheadbutt"
+      ],
+      "evolutions": [
+        {
+          "id": "lechonk_idola_oinkologne",
+          "variant": "level_up",
+          "result": "oinkologne idolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 18
+            }
+          ]
+        }
+      ],
+      "behaviour": {
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "lechonk idolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "oinkologne idolan",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "walkSpeed": 0.12
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0333,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      }
+    }
+  ]
+}

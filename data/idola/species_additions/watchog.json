@@ -1,0 +1,255 @@
+
+{
+  "target": "cobblemon:watchog",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "normal",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 11,
+      "weight": 270,
+      "pokedex": [
+        "idola.species.watchog.idolan.desc"
+      ],
+      "labels": [
+        "gen5",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "adaptability",
+        "sandstream",
+        "h:strongjaw"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defence": 75,
+        "special_attack": 25,
+        "special_defence": 75,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "catchRate": 255,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.8,
+        "height": 2.55,
+        "fixed": false
+      },
+    "moves": [
+      "1:tackle",
+      "1:mudslap",
+      "1:leer",
+      "1:sandattack",
+      "1:quickattack",
+      "1:bite",
+      "1:lowkick",
+      "1:confuseray",
+      "1:rototiller",
+      "11:detect",
+      "16:bulldoze",
+      "18:superfang",
+      "20:crunch",
+      "21:dig",
+      "23:workup",
+      "25:hyperfang",
+      "28:firefang",
+      "31:stompingtantrum",
+      "34:thunderfang",
+      "37:icefang",
+      "40:swordsdance",
+      "43:earthquake",
+      "46:doubleedge",
+      "49:superfang",
+      "52:endeavor",
+
+      "egg:assurance",
+      "egg:bulletseed",
+      "egg:flail",
+      "egg:foresight",
+      "egg:irontail",
+      "egg:pursuit",
+      "egg:revenge",
+      "egg:screech",
+      "egg:tearfullook",
+      "egg:curse",
+      "egg:mudshot",
+
+      "tm:afteryou",
+      "tm:aquatail",
+      "tm:assurance",
+      "tm:batonpass",
+      "tm:bulldoze",
+      "tm:bulletseed",
+      "tm:confuseray",
+      "tm:covet",
+      "tm:crunch",
+      "tm:cut",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:dreameater",
+      "tm:earthquake",
+      "tm:endeavor",
+      "tm:endure",
+      "tm:facade",
+      "tm:firefang",
+      "tm:firepunch",
+      "tm:flamethrower",
+      "tm:flash",
+      "tm:fling",
+      "tm:focusblast",
+      "tm:focusenergy",
+      "tm:focuspunch",
+      "tm:gigaimpact",
+      "tm:grassknot",
+      "tm:gunkshot",
+      "tm:helpinghand",
+      "tm:hyperbeam",
+      "tm:hyperfang",
+      "tm:icefang",
+      "tm:icepunch",
+      "tm:irontail",
+      "tm:knockoff",
+      "tm:laserfocus",
+      "tm:lastresort",
+      "tm:lightscreen",
+      "tm:lowkick",
+      "tm:mudslap",
+      "tm:poweruppunch",
+      "tm:protect",
+      "tm:psychup",
+      "tm:raindance",
+      "tm:rest",
+      "tm:retaliate",
+      "tm:revenge",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:sandstorm",
+      "tm:screech",
+      "tm:seedbomb",
+      "tm:shadowball",
+      "tm:shockwave",
+      "tm:signalbeam",
+      "tm:sleeptalk",
+      "tm:stompingtantrum",
+      "tm:strength",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:superfang",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:terablast",
+      "tm:thunder",
+      "tm:thunderbolt",
+      "tm:thunderfang",
+      "tm:thunderpunch",
+      "tm:thunderwave",
+      "tm:workup",
+      "tm:zenheadbutt",
+
+      "tutor:afteryou",
+      "tutor:aquatail",
+      "tutor:covet",
+      "tutor:endeavor",
+      "tutor:firepunch",
+      "tutor:flamethrower",
+      "tutor:focusenergy",
+      "tutor:focuspunch",
+      "tutor:gigaimpact",
+      "tutor:gunkshot",
+      "tutor:helpinghand",
+      "tutor:hyperbeam",
+      "tutor:icepunch",
+      "tutor:irontail",
+      "tutor:knockoff",
+      "tutor:laserfocus",
+      "tutor:lastresort",
+      "tutor:lowkick",
+      "tutor:rest",
+      "tutor:rocksmash",
+      "tutor:seedbomb",
+      "tutor:shadowball",
+      "tutor:shockwave",
+      "tutor:signalbeam",
+      "tutor:sleeptalk",
+      "tutor:stompingtantrum",
+      "tutor:superfang",
+      "tutor:swift",
+      "tutor:thunderbolt",
+      "tutor:thunderpunch",
+      "tutor:zenheadbutt",
+
+      "legacy:attract",
+      "legacy:confide",
+      "legacy:doubleteam",
+      "legacy:frustration",
+      "legacy:hiddenpower",
+      "legacy:return",
+      "legacy:round",
+      "legacy:secretpower",
+      "legacy:snore",
+      "legacy:swagger",
+      "legacy:toxic"
+    ],
+      "preEvolution": "patrat idolan",
+      "evolutions": [],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:babiri_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "lightingData": {
+        "lightLevel": 6,
+        "liquidGlowMode": "BOTH"
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": 7,
+          "toleratedLeaders": [
+            {
+              "pokemon": "watchog idolan",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0333,
+          "light": "0-4",
+          "rouseChance": 0.0042
+        }
+      }
+    }
+  ]
+}

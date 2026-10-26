@@ -1,0 +1,50 @@
+{
+    "species": "cobblemon:pawmo",
+    "order": 10,
+    "variations": [
+        {
+            "aspects": [
+                "idolan"
+            ],
+            "poser": "idola:pawmo_idolan",
+            "model": "idola:pawmo_idolan.geo",
+            "texture": "idola:textures/pokemon/pawmo/pawmo_idolan.png",
+            "layers": [
+                {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "idola:textures/pokemon/pawmo/pawmo_idolan_emissive.png",
+                "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "idolan",
+                "shiny"
+            ],
+            "texture": "idola:textures/pokemon/pawmo/pawmo_idolan_shiny.png",
+            "layers": [
+                {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "idola:textures/pokemon/pawmo/pawmo_idolan_emissive.png",
+                "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "idolan",
+                "alpha_eyes"
+            ],
+            "layers": [
+                {
+                "name": "alpha_eyes",
+                "texture": "idola:textures/pokemon/pawmo/pawmo_idolan_alpha.png",
+                "emissive": true
+                }
+            ]
+        }
+    ]
+}

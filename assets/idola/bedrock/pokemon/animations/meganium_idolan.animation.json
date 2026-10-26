@@ -738,7 +738,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "pokemon.meganium_idolan.cry"
+					"effect": "pokemon.meganium.cry"
 				}
 			}
 		},

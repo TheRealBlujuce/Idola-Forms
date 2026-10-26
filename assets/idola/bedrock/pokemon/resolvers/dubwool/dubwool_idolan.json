@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:dubwool",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "idola:dubwool_idolan",
+      "model": "idola:dubwool_idolan.geo",
+      "texture": "idola:textures/pokemon/dubwool/dubwool_idolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/dubwool/dubwool_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/dubwool/dubwool_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

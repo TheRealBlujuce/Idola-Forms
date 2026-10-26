@@ -1,0 +1,145 @@
+{
+  "target": "cobblemon:dubwool",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "fighting",
+      "secondaryType": "rock",
+      "maleRatio": 0.5,
+      "height": 13,
+      "weight": 480,
+      "pokedex": [
+        "idola.species.dubwool.idolan.desc"
+      ],
+      "labels": [
+        "gen8",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "fluffy",
+        "intimidate",
+        "h:sheerforce"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 100,
+        "defence": 110,
+        "special_attack": 40,
+        "special_defence": 90,
+        "speed": 78
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_fast",
+      "catchRate": 127,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 1.25,
+      "hitbox": {
+        "width": 1,
+        "height": 1.3,
+        "fixed": false
+      },
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "1:defensecurl",
+        "1:rockthrow",
+        "12:guardsplit",
+        "16:doublekick",
+        "21:headbutt",
+        "27:rocktomb",
+        "32:guardswap",
+        "38:reversal",
+        "44:cottonguard",
+        "50:doubleedge",
+        "56:headsmash",
+        "egg:counter",
+        "egg:stomp",
+        "egg:swagger",
+        "tm:agility",
+        "tm:batonpass",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:doubleedge",
+        "tm:endure",
+        "tm:facade",
+        "tm:gigaimpact",
+        "tm:guardswap",
+        "tm:headbutt",
+        "tm:hyperbeam",
+        "tm:lowkick",
+        "tm:payback",
+        "tm:protect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:reversal",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sleeptalk",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:zenheadbutt",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:zenheadbutt",
+        "legacy:attract",
+        "legacy:round",
+        "legacy:snore"
+      ],
+      "preEvolution": "wooloo idolan",
+      "evolutions": [],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "dubwool idolan",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "shearable": {
+          "canShear": false
+        }
+      }
+    }
+  ]
+}

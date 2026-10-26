@@ -1,0 +1,51 @@
+
+{
+  "species": "cobblemon:patrat",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "idola:patrat_idolan",
+      "model": "idola:patrat_idolan.geo",
+      "texture": "idola:textures/pokemon/patrat/patrat_idolan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "idola:textures/pokemon/patrat/patrat_idolan_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/patrat/patrat_idolan_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "idola:textures/pokemon/patrat/patrat_idolan_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/patrat/patrat_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

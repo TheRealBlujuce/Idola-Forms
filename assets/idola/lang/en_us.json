@@ -1,13 +1,141 @@
 {
+    "specie_comment_1": "THESE ARE FOR IDOLAN CHIKORITA - MEGANIUM",
+
+    "idola.species.chikorita.idolan.desc": "Idolan Chikorita — It is unusually sensitive to changes in the plants around it. When vegetation becomes damaged or unhealthy, Chikorita gathers nearby and releases a faintly sweet fragrance from its leaf.",
+
+    "cobblemon.ui.pokedex.info.form.chikorita-idola": "Idolan Form",
+
+    "idola.species.bayleef.idolan.desc": "Idolan Bayleef — The fragrance released by the blossoms around its neck encourages damaged plants to produce new growth. Bayleef often remain near areas affected by wildfire until vegetation begins to return.",
+
+    "cobblemon.ui.pokedex.info.form.bayleef-idola": "Idolan Form",
+
     "idola.species.meganium.idolan.desc": "Idolan Meganium — The Blooming Guardian Pokémon. The flowers covering its body release a fragrance that encourages plant growth. Forests inhabited by Meganium are said to recover unusually quickly from fires and severe winters.",
 
     "cobblemon.ui.pokedex.info.form.meganium-idola": "Idolan Form",
+
+
+
+    "specie_comment_2": "THESE ARE FOR IDOLAN MUDKIP - SWAMPERT",
+
+    "idola.species.mudkip.idolan.desc": "Idolan Mudkip — It prefers unusually clear streams and can detect subtle changes in water quality with the fin on its head. Wild Mudkip have been observed carrying mud and debris away from the pools where they sleep.",
+
+    "cobblemon.ui.pokedex.info.form.mudkip-idola": "Idolan Form",
+
+    "idola.species.marshtomp.idolan.desc": "Idolan Marshtomp — Specialized organs along its fins absorb impurities from the water around it. As these substances accumulate, faint purple markings begin to appear across its body.",
+
+    "cobblemon.ui.pokedex.info.form.marshtomp-idola": "Idolan Form",
 
     "idola.species.swampert.idolan.desc": "Idolan Swampert — The Watershed Guardian Pokémon. Its body absorbs impurities from the rivers and wetlands where it lives. The concentrated substances are converted into a powerful toxin stored within the purple channels along its fins.",
 
     "cobblemon.ui.pokedex.info.form.swampert-idola": "Idolan Form",
 
+
+    "specie_comment_3": "THESE ARE FOR IDOLAN SCORBUNNY - CINDERACE",
+
+    "idola.species.scorbunny.idolan.desc": "Idolan Scorbunny — It races across Idola's rocky foothills with remarkable balance. Scorbunny often kick small stones while running, seemingly treating them as toys while strengthening their legs.",
+
+    "cobblemon.ui.pokedex.info.form.scorbunny-idola": "Idolan Form",
+
+    "idola.species.raboot.idolan.desc": "Idolan Raboot — Raboot living in Idola's rocky highlands practice by repeatedly kicking stones along mountain trails. The heat produced by its feet gradually smooths the stones it favors.",
+
+    "cobblemon.ui.pokedex.info.form.raboot-idola": "Idolan Form",
+
     "idola.species.cinderace.idolan.desc": "Idolan Cinderace — The Frontier Striker Pokémon. Living in Idola's rocky highlands strengthened its legs considerably. It kicks stones with enough force to shatter them, coating the fragments in fire before launching them toward opponents.",
 
-    "cobblemon.ui.pokedex.info.form.cinderace-idola": "Idolan Form"
+    "cobblemon.ui.pokedex.info.form.cinderace-idola": "Idolan Form",
+
+
+    "specie_comment_4": "THESE ARE FOR IDOLAN WOOLOO - DUBWOOL",
+
+    "idola.species.wooloo.idolan.desc": "Idolan Wooloo — Its dense wool protects it from falls while climbing Idola's rocky highlands. Young Wooloo frequently butt heads in play, gradually strengthening their legs and horns for life on steep mountain slopes.",
+
+    "cobblemon.ui.pokedex.info.form.wooloo-idola": "Idolan Form",
+    
+    "idola.species.dubwool.idolan.desc": "Idolan Dubwool — It scales sheer mountain slopes using powerful legs and spiral horns. Its wool traps fine mineral dust from the cliffs where it lives, forming a dense protective coat that can withstand tremendous impacts.",
+
+    "cobblemon.ui.pokedex.info.form.dubwool-idola": "Idolan Form",
+
+
+    "specie_comment_5": "THESE ARE FOR IDOLAN LECHONK - OINKOLOGNE",
+
+    "idola.species.lechonk.idolan.desc": "Idolan Lechonk — It uses its powerful snout to dig through hard soil in search of roots and buried food. Farmers often find trails of freshly turned earth wherever groups of Lechonk have passed.",
+
+    "cobblemon.ui.pokedex.info.form.lechonk-idola": "Idolan Form",
+    
+    "idola.species.oinkologne.idolan.desc": "Idolan Oinkologne — Generations spent roaming Idola's wilderness have made it fiercely independent and territorial. With its powerful tusks and shoulders, Oinkologne can tear through compacted earth and even uproot small trees while searching for food.",
+
+    "cobblemon.ui.pokedex.info.form.oinkologne-idola": "Idolan Form",
+
+
+    "specie_comment_6": "THESE ARE FOR IDOLAN PATRAT - WATCHOG",
+
+    "idola.species.patrat.idolan.desc": "Idolan Patrat — It digs elaborate tunnels beneath Idola's grasslands, forming large colonies with other Patrat. When danger approaches, it stamps its feet against the ground, sending vibrations through the tunnels to warn its companions.",
+
+    "cobblemon.ui.pokedex.info.form.patrat-idola": "Idolan Form",
+    
+    "idola.species.watchog.idolan.desc": "Idolan Watchog — It stands guard over entire colonies of Patrat, remaining motionless for hours while watching for Idolan Flygon and other predators. Farmers value Watchog for its sharp senses, as its warning calls can alert nearby settlements to approaching danger.",
+
+    "cobblemon.ui.pokedex.info.form.watchog-idola": "Idolan Form",
+
+    
+    "specie_comment_7": "THESE ARE FOR IDOLAN TRAPINCH - FLYGON",
+
+    "idola.species.trapinch.idolan.desc": "Idolan Trapinch — It constructs funnel-shaped pits near Patrat colonies, burying itself beneath the loose soil. When an unsuspecting Patrat approaches, Trapinch snaps its powerful jaws shut before its prey can escape.",
+
+    "cobblemon.ui.pokedex.info.form.trapinch-idola": "Idolan Form",
+    
+    "idola.species.vibrava.idolan.desc": "Idolan Vibrava — Its sensitive wings detect vibrations from Patrat moving through underground tunnels. Vibrava patrol the grasslands above their colonies, striking whenever an unsuspecting Patrat emerges from its burrow.",
+
+    "cobblemon.ui.pokedex.info.form.vibrava-idola": "Idolan Form",
+
+    "idola.species.flygon.idolan.desc": "Idolan Flygon — Known as the natural predator of Idolan Patrat, it patrols Idola's grasslands in search of prey. Its powerful wings create dust clouds that conceal its approach, allowing it to ambush even the most vigilant Watchog.",
+
+    "cobblemon.ui.pokedex.info.form.flygon-idola": "Idolan Form",
+
+
+    "specie_comment_8": "THESE ARE FOR IDOLAN PAWMI - PAWMOT",
+
+    "idola.species.pawmi.idolan.desc": "Idolan Pawmi — Its thick fur protects it from the freezing temperatures of Idola's mountains. It stores electricity in its cheeks, occasionally releasing small sparks that melt the snow surrounding its burrow.",
+
+    "cobblemon.ui.pokedex.info.form.pawmi-idola": "Idolan Form",
+    
+    "idola.species.pawmo.idolan.desc": "Idolan Pawmo — It uses its powerful forepaws to climb steep, icy slopes in search of food. By channeling electricity through its fur, Pawmo generates enough warmth to survive even the harshest mountain blizzards.",
+
+    "cobblemon.ui.pokedex.info.form.pawmo-idola": "Idolan Form",
+
+    "idola.species.pawmot.idolan.desc": "Idolan Pawmot — It inhabits the highest peaks of Idola, where violent snowstorms are common. By concentrating electricity within its frozen paws, Pawmot delivers powerful blows that can shatter thick ice and paralyze its opponents.",
+
+    "cobblemon.ui.pokedex.info.form.pawmot-idola": "Idolan Form",
+
+
+
+
+
+    "_comment": "THESE ARE FOR NORMAL LOCALIZATIONS",
+    "cobblemon.ui.pokedex.info.form.chikorita": "",
+    "cobblemon.ui.pokedex.info.form.bayleef": "",
+
+    "cobblemon.ui.pokedex.info.form.mudkip": "",
+    "cobblemon.ui.pokedex.info.form.marshtomp": "",
+
+    "cobblemon.ui.pokedex.info.form.scorbunny": "",
+    "cobblemon.ui.pokedex.info.form.raboot": "",
+
+    "cobblemon.ui.pokedex.info.form.wooloo": "",
+    "cobblemon.ui.pokedex.info.form.dubwool": "",
+
+    "cobblemon.ui.pokedex.info.form.lechonk": "",
+    "cobblemon.ui.pokedex.info.form.oinkologne": "",
+    
+    "cobblemon.ui.pokedex.info.form.patrat": "",
+    "cobblemon.ui.pokedex.info.form.watchog": "",
+
+    "cobblemon.ui.pokedex.info.form.trapinch": "",
+    "cobblemon.ui.pokedex.info.form.vibrava": "",
+    "cobblemon.ui.pokedex.info.form.flygon": "",
+
+    "cobblemon.ui.pokedex.info.form.pawmi": "",
+    "cobblemon.ui.pokedex.info.form.pawmo": "",
+    "cobblemon.ui.pokedex.info.form.pawmot": ""
+
 }

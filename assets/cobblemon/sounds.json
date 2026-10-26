@@ -1,0 +1,17 @@
+{
+  "pokemon.pawmi_idolan.cry": {
+    "sounds": [
+      "cobblemon:pokemon/pawmi_idolan/cry"
+    ]
+  },
+  "pokemon.pawmo_idolan.cry": {
+    "sounds": [
+      "cobblemon:pokemon/pawmo_idolan/cry"
+    ]
+  },
+  "pokemon.pawmot_idolan.cry": {
+    "sounds": [
+      "cobblemon:pokemon/pawmot_idolan/cry"
+    ]
+  }
+}

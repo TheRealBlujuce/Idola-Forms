@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:flygon",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "idola:flygon_idolan",      
+      "model": "idola:flygon_idolan.geo",
+      "texture": "idola:textures/pokemon/flygon/flygon_idolan.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "idola:textures/pokemon/flygon/flygon_idolan_transparency.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "idola:textures/pokemon/flygon/flygon_idolan_transparency_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ],
+      "texture": "idola:textures/pokemon/flygon/flygon_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/flygon/flygon_idolan_alpha.png",            
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

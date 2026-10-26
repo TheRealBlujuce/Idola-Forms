@@ -1,0 +1,226 @@
+{
+  "target": "cobblemon:patrat",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "normal",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 5,
+      "weight": 116,
+      "pokedex": [
+        "idola.species.patrat.idolan.desc"
+      ],
+      "labels": [
+        "gen5",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "pickup",
+        "cheekpouch",
+        "h:stakeout"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defence": 45,
+        "special_attack": 25,
+        "special_defence": 40,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 51,
+      "experienceGroup": "medium_fast",
+      "catchRate": 255,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.3,
+        "fixed": false
+      },
+    "moves": [
+      "1:tackle",
+      "1:mudslap",
+      "3:leer",
+      "6:sandattack",
+      "8:quickattack",
+      "11:bite",
+      "13:detect",
+      "16:bulldoze",
+      "18:superfang",
+      "21:dig",
+      "23:workup",
+      "25:crunch",
+      "28:hyperfang",
+      "31:stompingtantrum",
+      "33:endeavor",
+      "36:swordsdance",
+      "39:doubleedge",
+
+      "egg:assurance",
+      "egg:bulletseed",
+      "egg:flail",
+      "egg:foresight",
+      "egg:irontail",
+      "egg:pursuit",
+      "egg:revenge",
+      "egg:screech",
+      "egg:tearfullook",
+      "egg:curse",
+      "egg:mudshot",
+
+      "tm:afteryou",
+      "tm:aquatail",
+      "tm:assurance",
+      "tm:batonpass",
+      "tm:bulldoze",
+      "tm:bulletseed",
+      "tm:covet",
+      "tm:crunch",
+      "tm:cut",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:endeavor",
+      "tm:endure",
+      "tm:facade",
+      "tm:fling",
+      "tm:focusenergy",
+      "tm:grassknot",
+      "tm:gunkshot",
+      "tm:helpinghand",
+      "tm:irontail",
+      "tm:laserfocus",
+      "tm:lastresort",
+      "tm:lowkick",
+      "tm:mudslap",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:retaliate",
+      "tm:revenge",
+      "tm:rockslide",
+      "tm:rocktomb",
+      "tm:sandstorm",
+      "tm:screech",
+      "tm:seedbomb",
+      "tm:shadowball",
+      "tm:shockwave",
+      "tm:sleeptalk",
+      "tm:stompingtantrum",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:superfang",
+      "tm:swordsdance",
+      "tm:terablast",
+      "tm:thunderbolt",
+      "tm:workup",
+      "tm:zenheadbutt",
+
+      "tutor:afteryou",
+      "tutor:aquatail",
+      "tutor:covet",
+      "tutor:endeavor",
+      "tutor:focusenergy",
+      "tutor:gunkshot",
+      "tutor:helpinghand",
+      "tutor:irontail",
+      "tutor:laserfocus",
+      "tutor:lastresort",
+      "tutor:lowkick",
+      "tutor:rest",
+      "tutor:seedbomb",
+      "tutor:shadowball",
+      "tutor:shockwave",
+      "tutor:sleeptalk",
+      "tutor:superfang",
+      "tutor:thunderbolt",
+      "tutor:zenheadbutt",
+
+      "legacy:attract",
+      "legacy:confide",
+      "legacy:doubleteam",
+      "legacy:frustration",
+      "legacy:hiddenpower",
+      "legacy:return",
+      "legacy:round",
+      "legacy:secretpower",
+      "legacy:snore",
+      "legacy:swagger",
+      "legacy:toxic"
+    ],
+      "evolutions": [
+        {
+          "id": "patrat_watchog_idolan",
+          "variant": "level_up",
+          "result": "watchog idolan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 20
+            }
+          ]
+        }
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:babiri_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "lightingData": {
+        "lightLevel": 3,
+        "liquidGlowMode": "BOTH"
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "patrat idolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "watchog idolan",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0333,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      }
+    }
+  ]
+}

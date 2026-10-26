@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:wooloo",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "cobblemon:wooloo",
+      "model": "idola:wooloo_idolan.geo",
+      "texture": "idola:textures/pokemon/wooloo/wooloo_idolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/wooloo/wooloo_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "idola:textures/pokemon/wooloo/wooloo_idolan_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

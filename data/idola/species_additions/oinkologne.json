@@ -1,0 +1,168 @@
+{
+  "target": "cobblemon:oinkologne",
+  "forms": [
+    {
+      "name": "Idola",
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "maleRatio": 0.5,
+      "height": 10,
+      "weight": 1200,
+      "pokedex": [
+        "idola.species.oinkologne.idolan.desc"
+      ],
+      "labels": [
+        "gen9",
+        "idolan"
+      ],
+      "aspects": [
+        "idolan"
+      ],
+      "abilities": [
+        "intimidate",
+        "eartheater",
+        "h:defiant"
+      ],
+      "eggGroups": [
+        "field"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 110,
+        "defence": 85,
+        "special_attack": 25,
+        "special_defence": 85,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 171,
+      "experienceGroup": "medium_fast",
+      "catchRate": 100,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 1.2,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.1,
+        "fixed": false
+      },
+      "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "1:mudslap",
+        "1:covet",
+        "5:mudslap",
+        "8:covet",
+        "11:sandattack",
+        "14:mudshot",
+        "17:headbutt",
+        "18:bite",
+        "23:bulldoze",
+        "27:yawn",
+        "31:dig",
+        "35:workup",
+        "39:stompingtantrum",
+        "43:crunch",
+        "47:takedown",
+        "51:highhorsepower",
+        "56:doubleedge",
+        "egg:endeavor",
+        "egg:stockpile",
+        "egg:spitup",
+        "egg:swallow",
+        "egg:stuffcheeks",
+        "egg:curse",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:covet",
+        "tm:crunch",
+        "tm:curse",
+        "tm:dig",
+        "tm:doubleedge",
+        "tm:earthquake",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:gigaimpact",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:highhorsepower",
+        "tm:ironhead",
+        "tm:lashout",
+        "tm:mudslap",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:sandstorm",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tutor:bulldoze",
+        "tutor:covet",
+        "tutor:endeavor",
+        "tutor:gigaimpact",
+        "tutor:helpinghand",
+        "tutor:highhorsepower",
+        "tutor:ironhead",
+        "tutor:lashout",
+        "tutor:mudslap",
+        "tutor:playrough",
+        "tutor:rest",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:stompingtantrum",
+        "tutor:superfang",
+        "tutor:zenheadbutt"
+      ],
+      "preEvolution": "lechonk idolan",
+      "evolutions": [],
+      "behaviour": {
+        "herd": {
+          "maxSize": 7,
+          "toleratedLeaders": [
+            {
+              "pokemon": "oinkologne idolan",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "walkSpeed": 0.14
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0333,
+          "light": "0-4",
+          "rouseChance": 0.0042
+        }
+      }
+    }
+  ]
+}

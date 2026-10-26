@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:trapinch",
+  "order": 10,  
+  "variations": [
+    {
+      "aspects": [
+        "idolan"
+      ],
+      "poser": "cobblemon:trapinch",
+      "model": "idola:trapinch_idolan.geo",
+      "texture": "idola:textures/pokemon/trapinch/trapinch_idolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "idolan",
+        "shiny"
+      ],
+      "texture": "idola:textures/pokemon/trapinch/trapinch_idolan_shiny.png"
+    },
+    {
+      "aspects": [
+        "idolan",
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",       
+          "texture": "idola:textures/pokemon/trapinch/trapinch_idolan_alpha.png",               
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
